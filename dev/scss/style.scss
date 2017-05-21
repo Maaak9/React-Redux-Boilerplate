@@ -1,5 +1,45 @@
 $primary: #006699;
+$secondary: #784599;
 
 h2 {
 	color: $primary;
+}
+
+h3 {
+	color: $secondary;
+}
+
+.test {
+	height: 100px;
+	margin-top: 10px;
+}
+
+.calcText {
+	border-radius: 25px;
+    border: 2px solid #73AD21; 
+}
+
+.numberButton {
+	height: 100%;
+	width: 100%;
+	font-size: 200%;
+	text-align: center;
+	cursor:pointer;
+}
+
+#test {
+	height: 100px;
+	margin-top: 10px;
+}
+
+#calcText {
+	border-radius: 25px;
+    border: 2px solid #73AD21; 
+}
+
+#numberButton {
+	height: 100%;
+	width: 100%;
+	font-size: 200%;
+	text-align: center;
 }

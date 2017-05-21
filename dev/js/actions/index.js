@@ -5,3 +5,27 @@ export const selectUser = (user) => {
         payload: user
     }
 };
+
+export const incrementAction = (inc) => {
+    console.log("pressed increment button");
+    return {
+        type: 'INCREMENT',
+        payload: inc
+    }
+};
+
+export const decrementAction = (inc) => {
+    console.log("pressed increment button", inc);
+    return {
+        type: 'DECREMENT',
+        payload: inc
+    }
+};
+
+export const resetAction = (inc) => {
+    console.log("pressed RESET button", inc);
+    return {
+        type: 'RESET',
+        payload: inc
+    }
+};
